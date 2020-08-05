@@ -16,7 +16,7 @@
 }
 
 .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
-  background-color: white;
+  background-color: black;
   border-radius:.5rem;
   box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
