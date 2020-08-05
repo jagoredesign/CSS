@@ -7,7 +7,6 @@
   overflow: auto;
 }
 
-
 .CodeMirror-lines {
   padding: 4px 0; 
 }
@@ -193,10 +192,9 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 
 .CodeMirror-lines {
   cursor: text;
-  min-height: 1px; /* prevents collapsing before first draw */
+  min-height: 1px; 
 }
 .CodeMirror pre {
-  /* Reset some styles that the rest of the page might have set */
   -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
   border-width: 0;
   background: transparent;
@@ -273,7 +271,6 @@ div.CodeMirror-cursors {
 .cm-force-border { padding-right: .1px; }
 
 @media print {
-  /* Hide the cursor when printing */
   .CodeMirror div.CodeMirror-cursors {
     visibility: hidden;
   }
