@@ -1,1 +1,78 @@
-::-webkit-scrollbar{height:6px;width:6px;background:#101010}::-webkit-scrollbar-thumb{background-color:#03a9f4;-moz-border-radius:10px;border-radius:10px}.hidden{visibility:hidden;height:0;overflow:hidden;display:none}.clear,.clearfix{clear:both}.separator a{margin:initial!important}.separator a img{margin:1em}.separator:nth-child(1) a img{margin:initial;margin-bottom:auto}/* BODY */*{outline:0!important}html,body{height:100%}a:hover{text-decoration:none!important}.overflow-hidden{overflow:hidden}.trans{-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}.hidding-smooth{position:relative;height:6vh;overflow:hidden}.hidding-smooth:after{-webkit-transition:ease .8s;-moz-transition:ease .8s;-ms-transition:ease .8s;-o-transition:ease .8s;transition:ease .8s;position:absolute;bottom:0;left:0;right:0;content:&#39;&#39;background:linear-gradient(180deg,transparent,white 70%);width:100%;height:5vh}.hidding-smooth:hover:after{height:1px}#fullpage{min-height:100%;margin:0 0 -57px 0;padding:0 0 57px 0}footer.footer{height:57px;background-color:#fff;color:#444}.sticky-top{top:calc(60px + 1rem)}.copysuccess{display:none;}@media(max-width:767px){.order-custom{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}.copysuccess{display:none;}@media(max-width:767px){.order-custom{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}@media(max-width:408px){#HTML602,#HTML704{display:none}}@media(max-width:411px){#HTML602,#HTML704{display:none}}@media(max-width:414px){#HTML602,#HTML704{display:none}}@media(max-width:450px){#HTML602,#HTML704{display:none}}@media(max-width:700px){#HTML602,#HTML704{display:none}}@media(max-width:767px){#HTML602,#HTML704{display:none}}.gambarku{display:none}#Postingan {position: relative;}.blog-posts.hfeed{padding:10px;display:grid;grid-template-columns:50% 50%}.cabar {text-align: center;color: white;width: 100%;height: 5vh;background: #101010;margin-top: -4px;font-size: 25px;line-height: 15vh;}.maxwidth {margin: auto;max-width: 1111px;}@media screen and (min-width:568px){.post-outer:last-child:nth-child(odd){text-align:center;width:calc(200% - 30px)}.post-outer:nth-child(odd){text-align:right}.post-outer:nth-child(odd) .post-tag a:last-child{margin-right:0}.post-outer:nth-child(even) .post-tag a:first-child{margin-left:0}}.wrapper-satu {background:#101010;height:70vh;color:#fff;overflow:hidden;position:relative}.wrapper-satu .isi{height:80vh;display:table-cell;vertical-align:middle;position:relative;}.wrapper-satu .nama{display:inline-block;width:100%;margin-bottom:30px}.wrapper-satu .nama p{font-weight:100;font-size:3em;float:left}.wrapper-satu .nama p#akhir{font-weight:700}.wrapper-satu .nama p#akhir:after {animation: blink 600ms ease-in-out infinite;content: &quot;|&quot;;font-weight:100}.wrapper-satu .deskripsi{opacity:.7}.wrapper-satu .dekorasi {top: 0;overflow: hidden;height: 100vh;position: fixed;}.wrapper-dua {padding:0 10vw 40px;position:relative;background:#101010;width:100%;display:inline-block;color:#fff;min-height:auto;}.wrapper-dua .kiri {padding-right:30px;float:left;width:60%}.wrapper-dua .kiri .judul{opacity:.7}.wrapper-dua .kiri .salam{margin:10px 0 20px;font-size:30px;font-weight:900}.wrapper-dua .kiri ul{border-left:2px solid #dadada}.wrapper-dua .kiri ul li{font-size:90%;margin-bottom:20px;list-style:none;margin-left:20px}.wrapper-dua .kiri ul li:before{margin-left:-30px;position:absolute;background:#bdbdbd;width:20px;content:&quot;&quot;;height:20px;border-radius:10px;border:6px solid #a7a7a7}.wrapper-dua .kiri ul li b{margin:-10px 0 10px 10px;border-radius:3px;background:#5a5a5a;color:#fff;padding:5px 10px;display:inline-block}.wrapper-dua .kiri ul li b:before{content:&quot;&quot;;border-style:solid;border-width:8px 10px 8px 0;border-color:transparent #5a5a5a transparent transparent;position:absolute;margin-top:2px;margin-left:-20px}@media screen and (max-width:1211px){.wrapper-satu .isi{;padding:0 10vw;}}@media screen and (max-width:768px){.wrapper-dua {padding:0 8vw 10vw !important;}}@media screen and (max-width:568px){.wrapper-dua .kiri {padding: 0;width: 100%;float: none;}.wrapper-dua .kanan {width: 100%;float: none;}}@keyframes blink{0%{opacity: 0;}50%{opacity: .5;} 100%{opacity: 1;}}
+/* FIX */
+.hidden{visibility:hidden;height:0;overflow:hidden;display:none}
+.clear,.clearfix{clear:both}
+.separator a{margin:initial!important}
+.separator a img{margin:1em}
+.separator:nth-child(1) a img{margin:initial;margin-bottom:auto}/* BODY */*{outline:0!important}
+html,body{height:100%}
+a:hover{text-decoration:none!important}
+.overflow-hidden{overflow:hidden}
+.trans{-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.hidding-smooth{position:relative;height:6vh;overflow:hidden}
+.hidding-smooth:after{-webkit-transition:ease .8s;-moz-transition:ease .8s;-ms-transition:ease .8s;-o-transition:ease .8s;transition:ease .8s;position:absolute;bottom:0;left:0;right:0;content:&#39;&#39;background:linear-gradient(180deg,transparent,white 70%);width:100%;height:5vh}
+.hidding-smooth:hover:after{height:1px}
+#fullpage{min-height:100%;margin:0 0 -57px 0;padding:0 0 57px 0}
+footer.footer{height:57px;background-color:#fff;color:#444}
+.sticky-top{top:calc(60px + 1rem)}
+.copysuccess{display:none;}
+@media(max-width:767px){
+.order-custom{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}
+.copysuccess{display:none;}
+@media(max-width:767px){
+.order-custom{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}}
+@media(max-width:408px){
+  #HTML602,#HTML704{display:none}}
+@media(max-width:411px){
+  #HTML602,#HTML704{display:none}}
+@media(max-width:414px){
+  #HTML602,#HTML704{display:none}}
+@media(max-width:450px){
+  #HTML602,#HTML704{display:none}}
+@media(max-width:700px){
+  #HTML602,#HTML704{display:none}}
+@media(max-width:767px){
+  #HTML602,#HTML704{display:none}}.gambarku{display:none}
+header {text-align: center;width: 100%;opacity: .6;position: absolute;z-index: 1;padding: 40px;}
+#Postingan {position: relative;}
+.blog-posts.hfeed{padding:10px;display:grid;grid-template-columns:50% 50%}
+.cabar {text-align: center;color: white;width: 100%;height: 5vh;background: #101010;margin-top: -4px;font-size: 25px;line-height: 15vh;}
+.maxwidth {margin: auto;max-width: 1111px;}
+@media screen and (min-width:568px){
+.post-outer:last-child:nth-child(odd){text-align:center;width:calc(200% - 30px)}
+.post-outer:nth-child(odd){text-align:right}
+.post-outer:nth-child(odd) .post-tag a:last-child{margin-right:0}
+.post-outer:nth-child(even) .post-tag a:first-child{margin-left:0}
+}
+.wrapper-satu {background:#101010;height:70vh;color:#fff;overflow:hidden;position:relative}
+.wrapper-satu .isi{height:80vh;display:table-cell;vertical-align:middle;position:relative;}
+.wrapper-satu .nama{display:inline-block;width:100%;margin-bottom:30px}
+.wrapper-satu .nama p{font-weight:100;font-size:3em;float:left}
+.wrapper-satu .nama p#akhir{font-weight:700}
+.wrapper-satu .nama p#akhir:after {animation: blink 600ms ease-in-out infinite;content: &quot;|&quot;;font-weight:100}
+.wrapper-satu .deskripsi{opacity:.7}
+.wrapper-satu .dekorasi {top: 0;overflow: hidden;height: 100vh;position: fixed;}
+.wrapper-dua {padding:0 10vw 40px;position:relative;background:#101010;width:100%;display:inline-block;color:#fff;min-height:auto;}
+.wrapper-dua .kiri {padding-right:30px;float:left;width:60%}
+.wrapper-dua .kiri .judul{opacity:.7}
+.wrapper-dua .kiri .salam{margin:10px 0 20px;font-size:30px;font-weight:900}
+.wrapper-dua .kiri ul{border-left:2px solid #dadada}
+.wrapper-dua .kiri ul li{font-size:90%;margin-bottom:20px;list-style:none;margin-left:20px}
+.wrapper-dua .kiri ul li:before{margin-left:-30px;position:absolute;background:#bdbdbd;width:20px;content:&quot;&quot;;height:20px;border-radius:10px;border:6px solid #a7a7a7}
+.wrapper-dua .kiri ul li b{margin:-10px 0 10px 10px;border-radius:3px;background:#5a5a5a;color:#fff;padding:5px 10px;display:inline-block}
+.wrapper-dua .kiri ul li b:before{content:&quot;&quot;;border-style:solid;border-width:8px 10px 8px 0;border-color:transparent #5a5a5a transparent transparent;position:absolute;margin-top:2px;margin-left:-20px}
+@media screen and (max-width:1211px){
+  .wrapper-satu .isi{;padding:0 10vw;}
+}
+@media screen and (max-width:768px){
+ .wrapper-dua {padding:0 8vw 10vw !important;}
+}
+@media screen and (max-width:568px){
+ .wrapper-dua .kiri {padding: 0;width: 100%;float: none;}
+ .wrapper-dua .kanan {width: 100%;float: none;}
+}
+@keyframes blink{
+ 0%{opacity: 0;}
+ 50%{opacity: .5;} 
+ 100%{opacity: 1;}}
+
+::-webkit-scrollbar{height:6px;width:6px;background:#fff}::-webkit-scrollbar-thumb{background-color:#101010;-moz-border-radius:10px;border-radius:10px}
